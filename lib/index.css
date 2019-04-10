@@ -1,0 +1,143 @@
+/* Fonts Section */
+
+@font-face{
+	font-family: 'Nunito-Regular';
+	src: url('./fonts/Nunito-Regular.ttf');
+}
+@font-face{
+	font-family: 'VarelaRound-Regular';
+	src: url('./fonts/VarelaRound-Regular.ttf');
+}
+@font-face{
+	font-family: 'BalooChettan-Regular';
+	src: url('./fonts/BalooChettan-Regular.ttf');
+}
+
+
+/* -- */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+}
+#logDisplayWrapper{
+	position: fixed;
+	height: 4%;
+	top: 96%;
+	background-color: #ea7312;
+	border: solid;
+	text-align: center;
+	font-size: 15px;
+	width: 102%;
+	left:-5px;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Nunito-Regular';
+}
+#loadingScreenWrapper{
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	display: none;
+}
+#loadingAnimation{
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top: 40%;
+	left: 45%;
+}
+#loadingScreenBackground{
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.6;
+}
+#loadingScreenText{
+	text-align: center;
+	height: 20px;
+	position: fixed;
+	top: 55%;
+	width: 30%;
+	left: 35%;
+	font-family: 'Nunito-Regular';
+}
+#mainWrapper{
+	height:100%;
+	width: 100%;
+	position: fixed;
+}
+#pageContentWrapper{
+	width: 90%;
+	top:20px;
+	height: 80%;
+	left: 5%;
+	position: relative;
+}
+#headerWrapper{
+	width:100%;
+	position: relative;
+	background-color: #fff;
+	height: 48.5px;
+	padding-top: 3px;
+	border-top: solid;
+	border-width: 1.5px;
+	border-color: #8e8f91;
+	-webkit-box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.75);
+}
+
+#moreMenuWrapper{
+	width: 5%;
+	position: relative;
+	display: inline-block;
+	height: 83%;
+	padding-top: 7px;
+	cursor: pointer;
+	border-width: 1.5px;
+	text-align: center;
+	
+}
+#moreMenuIcon{
+	object-fit: contain;
+	position: relative;
+	width: 70%;
+	height: 70%;
+}
+
+#homeMenuWrapper,#detectionMenuWrapper,#trainingMenuWrapper,#aboutMenuWrapper,#settingsMenuWrapper{
+	width: 8%;
+	position: relative;
+	display: inline-block;
+	height: 90%;
+	cursor: pointer;
+	padding-top: 2px;
+	left: 3%;
+}
+#homeMenuIcon,#detectMenuIcon,#trainingMenuIcon,#aboutMenuIcon,#settingsMenuIcon{
+	object-fit: contain;
+	position: relative;
+	width: 55%;
+	height: 65%;
+	cursor: pointer;
+}
+#homeMenuLabel,#detectMenuLabel,#trainingMenuLabel,#aboutMenuLabel{
+	height: 40%;
+	position: relative;
+	top: -7px;
+	font-size: 16px;
+	padding-left: 10px; 
+	border-width: 500;
+	font-family: 'Nunito-Regular';
+}
+#settingsMenuIcon{
+	top:12%;
+}
+#settingsMenuWrapper{
+	left: 55%;
+	width:5%;
+}

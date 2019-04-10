@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Parasite Detector</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="./components/home/home.css">
+	<link rel="stylesheet" type="text/css" href="./components/detect/detect.css">
+</head>
+	
+<body>
+	<div id = "mainWrapper">
+		<div id = 'headerWrapper'>
+			<div id = 'moreMenuWrapper'>
+				<img id = 'moreMenuIcon' src = './icons/headers/more.png' alt = 'more icon'/>
+			</div>
+			<div id = 'homeMenuWrapper' onClick = "navigateToPages('home-page');">
+				<img id = 'homeMenuIcon' src = './icons/headers/home.png' alt = 'home icon'/>
+				<p id = 'homeMenuLabel'>
+					Home
+				</p>
+			</div>
+			<div id = 'detectionMenuWrapper' onClick = "navigateToPages('detection-page');" >
+				<img id = 'detectMenuIcon' src = './icons/headers/detect.png' alt = 'detect icon'/>
+				<p id = 'detectMenuLabel'>
+					Detect
+				</p>
+			</div>
+			<div id = 'trainingMenuWrapper'>
+				<img id = 'trainingMenuIcon' src = './icons/headers/training.png' alt = 'detect icon'/>
+				<p id = 'trainingMenuLabel'>
+					Train
+				</p>
+			</div>
+			<div id = 'aboutMenuWrapper'>
+				<img id = 'aboutMenuIcon' src = './icons/headers/about.png' alt = 'about icon'/>
+				<p id = 'aboutMenuLabel'>
+					About
+				</p>
+			</div>
+			<div id ='settingsMenuWrapper'>
+				<img id = 'settingsMenuIcon' src = './icons/headers/settings.png' alt = 'about icon'/>
+			</div>
+		</div>
+		<div id = 'pageContentWrapper' >
+		</div>
+
+	</div>
+	<div id = 'loadingScreenWrapper'>
+		<div id = 'loadingScreenBackground'>
+		</div>
+		<img id = 'loadingAnimation' src = './icons/animations/loading.gif' alt = 'loading animation'/>
+		<p id = 'loadingScreenText'>
+			Performing operation, a moment..
+		</p>
+	</div>
+	<p id = 'logDisplayWrapper'>
+	</p>
+	
+	<script src = './js/main.js' type="text/javascript"></script>
+</body>
+</html>

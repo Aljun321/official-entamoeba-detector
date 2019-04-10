@@ -1,0 +1,107 @@
+#homeComponentWrapper{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#firstSectionWrapper,#secondSectionWrapper{
+	height: 100%;
+	width: 49%;
+	position: relative;
+	display: inline-block;
+}
+#headlineWrapper{
+	width: 100%;
+	height: 20%;
+}
+.headlineStyle{
+	font-size: 72px;
+	position: relative;
+	width:40px;
+	font-family: 'BalooChettan-Regular';
+	font-weight: 900;
+	display: inline-block;
+}
+#headlinePhrase{
+	width: 90%;
+	height: 7%;
+	position: relative;
+	font-size: 21px;	
+	padding-left: 13px;
+	font-family: 'Nunito-Regular';
+	font-style: italic;
+}
+#headlineContent{
+	position: relative;
+	width: 100%;
+	height: 35%;
+	top: 6px;
+	font-size: 17.4px;
+	font-family: 'Nunito-Regular';
+	display: flex;
+    justify-content: center;
+}
+#aiDescriptionWrapper{
+	width: 100%;
+	position: relative;
+	height: 30%;
+	top: 5px;
+}
+#aiLogo{
+	position: relative;
+	width:45%;
+	height: 100%;
+	display: inline-block;
+	object-fit: contain;
+}
+#aiContent{
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	justify-content: center;
+	font-family: 'Nunito-Regular';
+	font-size: 15px;
+	top: 13px;
+	font-style: italic;
+}
+#anim1Wrapper{
+	width:30%;
+	height: 30%;
+	left: 45%;
+	top:7%;
+	position: relative;
+	border-radius:100%;
+	background-color:#00ffc7;
+}
+#startTagLine{
+	position: relative;
+	top:9%;
+	height: 5%;
+	width: 45%;
+	padding-left:53%;
+	font-size: 15px;
+	font-family: 'Nunito-Regular';
+}
+#cameraIntro{
+	height: 10%;
+	position: relative;
+	width: 70%;
+	text-align: center;
+	top:15%;
+	left: 20%;
+	font-size: 15px;
+	font-family: 'Nunito-Regular';
+}
+#startButton{
+	width: 25%;
+	height: 7%;
+	position: relative;
+	border: solid;
+	text-align: center;
+	font-size: 110%;
+	font-family: 'Nunito-Regular';
+	padding-top:2%;
+	top:20%;
+	font-weight: bold;
+	left: 47.5%;
+	cursor: pointer;
+}

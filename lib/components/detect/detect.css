@@ -1,0 +1,85 @@
+#detectComponentWrapper{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+#detectFirstSection{
+	position: relative;
+	width:49%;
+	border-right:solid;
+	display: inline-block;
+	border-color: #ea7312;
+	height: 100%;
+}
+#menuSection{
+	position: relative;
+	width: 100%;
+	height: 10%;
+}
+#uploadWrapper,#cameraWrapper{
+	width: 23%;
+	position: relative;
+	height:90%;
+	padding-top: 5px;
+	left:2%;
+	cursor: pointer;
+	display: inline-block;
+}
+#cameraWrapper{
+	left: 6%;
+	height:91%;
+}
+#detectContentWrapper{
+	height: 83%;
+	width: 96%;
+	position: relative;
+	top: 3%;
+}
+#detectContentPlaceholder{
+	text-align: center;
+	position: relative;
+	height: 6%;
+	width:100%;
+	top: 40%;
+	font-size:15px;
+	font-family: 'Nunito-Regular';
+	font-weight: bold;
+}
+#detectSecondSection{
+	position: relative;
+	width:49%;
+	display: inline-block;
+	height: 100%;
+}
+#detectSecondMenu{
+	position: relative;
+	width: 100%;
+	height: 12%;
+}
+#detectWrapper{
+	width: 23%;
+	position: relative;
+	height:85%;
+	padding-top: 5px;
+	left:2%;
+}
+#detectResultWrapper{
+	width  : 100%;
+	height : 73%;
+}
+#detectResultPlaceholder{
+	text-align: center;
+	position: relative;
+	height: 6%;
+	width:100%;
+	top: 47%;
+	font-size:15px;
+	font-family: 'Nunito-Regular';
+	font-weight: bold;
+}
+#detectStatWrapper{
+	width: 100%;
+	height: 11%;
+	top:3px;
+	position: relative;
+}

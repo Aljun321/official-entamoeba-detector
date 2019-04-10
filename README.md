@@ -1,4 +1,4 @@
-# official-entamoeba-detector
+# Improvement of Microscopic Examination in Identifying Entamoeba Histolytica through Convolutional Neural Network
 The official repository of the pioneering application to medical science, utilizing Artificial Intelligence.
 ## Pitched
 One can't deny that when it comes to healthcare technology here in the Philippines, there's still a lot left to be desired.

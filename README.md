@@ -14,15 +14,15 @@ That being said, we have developed an application that takes advantage of region
 We aim to introduce artificial intelligence in the medical field’s imaging processes through this application and hope that it can pave the way for the creation of other imaging applications to help elevate the Filipino healthcare system.
 
 ## Built with
-* [Darkflow Model](https://github.com/thtrieu/darkflow) - The prominent YOLO algorithm implmented in python
-* [ElectronsJS](https://electronjs.org/) - Framework that empowers capability to project as desktop application
+* [Darkflow Model](https://github.com/thtrieu/darkflow) - The prominent YOLO algorithm implemented in python
+* [ElectronsJS](https://electronjs.org/) - Framework that empowers capability to the project as a desktop application
 * [TensorFlow](https://www.tensorflow.org/) - Framework build behind the darkflow model
 
 ## Testing/Deployment
 The application have gone through few accuracy tests as of moment with guidance and help from Cebu Doctors Hospital Medical Laboratory and Vicente Sotto Memorial Medical Center. Comprising the evaluation process are the test for sensitivity and specificity.
 
 ## Note
-Indeee, the application is an open source project under MIT License. Nevertheless, full requisition or garnering the project for benefits without appropriate agreement and copyright is subject to a violation of intellectual property implied under the premise of University of San Carlos. 
+Indeed, the application is an open source project under MIT License. Nevertheless, full requisition or garnering the project for benefits without appropriate agreement and copyright is subject to a violation of intellectual property implied under the premise of University of San Carlos. 
 
 ## Authors
 * **University of San Carlos**
